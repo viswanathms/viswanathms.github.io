@@ -34,8 +34,8 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>-->
                 </ul>
             </div>
         </nav>
@@ -176,14 +176,71 @@
             <!-- Interests-->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">TEXT MINING ON BI-LINGUAL SURVEY DATA ON HEALTHY AGING</h3>
+                            <div class="subheading">For Canadian longitudinal study on aging</div>
+                            <div class="subheading mb-3">Supervisor: Dr. Vlado Keselj, Dalhousie University</div>
+                            <p>
+                                <ul>
+                                    <li>N-Gram Analysis (Bigram, Trigram, Character NGrams).</li>
+                                    <li>POS Tagging using NLTK.</li>
+                                    <li>Topic Modelling (LDA and LSA).</li>
+                                    <li>Clustering (DBSCAN and TSNE) on word vectors (Word2Vec, GloVe, and Bert).</span></li>
+                                    <li>Generated word clouds using D3 and identified 27 important categories.</li>
+                                    <li>Used these categories to perform a semantic search using Uniform Sentence Encoder.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><a href="https://www.clsa-elcv.ca/sites/default/files/presentations/sfu-ubc_pt_event_11june2019_kirkland.pdf" target="blank" class="">Details</a></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">FAST FAILOVER GROUP FOR SDN BASED HORIZONTAL IOT</h3>
+                            <div class="subheading mb-3">Supervisor: Dr.Israat Haque, Dalhousie University</div>
+                            <p>
+                                <ul>
+                                    <li>Developed a testbed to implement Fast Failover Groups in an IoT environment.</li>
+                                    <li>Implemented using OVS, Ryu Controller, Raspberry Pi, and Python.</li>
+                                    <li>The researched proved that networks with a Fast Failover Group recovers faster and established a horizontal IoT architecture.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><a href="https://github.com/vizdal/SDN/blob/master/Project-SDN.pdf" target="blank" class="">Details</a></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">PROSIT – MOBILE SENSING APPLICATION TO TRACK MENTAL HEALTH</h3>
+                            <div class="subheading mb-3">For IWK Hospitals</div>
+                            <p>
+                                <ul>
+                                    <li>Maintained a secure Linux server using MeteorJS, Docker Compose, and MongoDB.</li>
+                                    <li>Wrote automation scripts to restructure and copy data to backup servers using PyMongo and CRON.</li>
+                                    <li>Stored and analyzed over 20GB (~3 Million Records) of time series data on a single MongoDB instance.</li>
+                                    <li>Indexed and created visualizations of the data using the ELK stack.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Visualization of the World Happiness Report</h3>
+                            <div class="subheading mb-3">Supervisor: Dr.Fernando V. Paulovich</div>
+                            <p>
+                                <ul>
+                                    <li>Visualized world happiness report and the influence of different factors on happiness using D3.</li>
+                                    <li>Developed a cause-effect model for happiness using Logistic Regression and Extra Tree Classifier, and identified the factors that influence the happiness.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><a href="https://www.linkedin.com/pulse/what-brings-happiness-data-based-understanding-viswanath/?trackingId=H0rfNzXaTL67syqKXwlkeg%3D%3D" target="blank" class="">Details</a></div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Skills-->
-            <section class="resume-section" id="skills">
+          <!--  <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
@@ -223,9 +280,9 @@
                 </div>
             </section>
             
-            <hr class="m-0" />
+            <hr class="m-0" />-->
             <!-- Awards-->
-            <section class="resume-section" id="awards">
+           <!-- <section class="resume-section" id="awards">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Awards & Certifications</h2>
                     <ul class="fa-ul mb-0">
@@ -269,7 +326,7 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section>-->
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
